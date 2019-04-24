@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: #FFBA00;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  }
+  
+  main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+  
+  h1 {
+    margin: 5rem 1rem;
+  }
+  
+  h2 {
+    margin: 2rem auto;
+  }
+  
+  img {
+    width: 50%;
+    min-width: 15rem;
+  }
+  
+  .comment {
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 50%;
+    min-width: 15rem;
+  }
+  
+  form {
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 15rem;
+  
+    padding: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+  
+  .formSection {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+  }
+  
+  label {
+    display: inline-block;
+    width: 80%;
+  }
+  
+  input, textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    min-height: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5rem;
+  }
+  
+  button {
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+  
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: black;
+  }
+  
+  button:hover,
+  button:focus {
+    color: black;
+    border-color: black;
+    background-color: white;
+  }
+  
+  footer {
+    margin: 3rem;
+    font-size: 1.2rem;
+  }
+  
