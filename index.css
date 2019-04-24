@@ -26,3 +26,10 @@ a:-webkit-any-link {
   h1 {
     margin: 3rem 1rem 6rem 1rem;
   }
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
