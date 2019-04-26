@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Een vrolijke vioolspeler</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="page.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="detail-page.css" />
 </head>
 <body>
   <main>
@@ -25,7 +25,7 @@
       </section>
     </section>
 
-    <form onsubmit="">
+    <form onsubmit="submitComment(); return false">
       <div class="formSection">
         <label for="name">Name:</label>
         <input type="text" id="name">
@@ -44,4 +44,5 @@
     <p>Made with &#x2764; at Codaisseur</p>
   </footer>
 </body>
+<script src="detail-page.js"></script>
 </html>
